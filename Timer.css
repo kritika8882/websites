@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('duck.jpeg') ;
+    background-size: cover;
+    
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.748);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+   
+    
+}
+
+.title{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+   
+}
+
+.box{
+    
+    width: 1000px;
+    display: flex;
+    /* vertical-align: middle; */
+    justify-content: center;
+    color: white;
+    
+    
+    
+}
+.box div{
+    width: 250px;
+    text-align: center;
+    
+    
+    
+    
+}
+input{
+    width: 80%;
+    height: 70px;
+    background-color: rgba(250, 235, 215, 0.426);
+    border: transparent;
+    border-radius: 6px;   
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
